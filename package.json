@@ -6,9 +6,13 @@
   "author": "Eugene Lim <nexolute@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "parcel views/index.html"
+    "start": "parcel views/index.html",
+    "dev": "parcel build views/index.html --public-url / && node server.js"
   },
   "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   },
