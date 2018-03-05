@@ -4,8 +4,8 @@ import Voter from './Voter';
 
 function RantItem(props) {
   return (
-    <div>
-      <p>{props.rant.message}</p>
+    <div className="rant-item">
+      <p className="rant-message">{props.rant.message}</p>
       <p>posted by {props.rant.user}</p>
       <Voter
         rant={props.rant}
