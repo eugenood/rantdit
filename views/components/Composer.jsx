@@ -18,7 +18,7 @@ class Composer extends React.Component {
     return (
       <form onSubmit={this.onSubmit}>
         <input type="text" name="user" placeholder="User" />
-        <input type="text" name="message" placeholder="Message" />
+        <input type="text" name="message" placeholder="Message" maxLength="255" />
         <input type="submit" value="Submit" />
       </form>
     );
