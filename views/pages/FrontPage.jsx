@@ -15,7 +15,7 @@ class FrontPage extends React.Component {
   }
 
   componentDidMount() {
-    axios.get('/latest')
+    axios.get('/top/20')
       .then((res) => this.setState({ rants: res.data }))
       .catch((err) => console.log(err));
   }
