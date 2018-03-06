@@ -14,7 +14,7 @@ function RantList(props) {
     );
   });
 
-  return <div>{rantItems}</div>;
+  return <div>{rantItems.reverse()}</div>;
 }
 
 RantList.propTypes = {
