@@ -4,7 +4,7 @@ const RantManager = require('./model/RantManager');
 
 const app = express();
 const rantManager = new RantManager();
-const port = process.env.API_PORT || 3001;
+const port = process.env.PORT || 3001;
 
 // add dummy rants into rant store for quick testing
 rantManager.addRant('this is great', 'nexolute');

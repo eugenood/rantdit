@@ -6,8 +6,8 @@
   "author": "Eugene Lim <nexolute@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "parcel views/index.html",
-    "dev": "parcel build views/index.html --public-url / && node server.js"
+    "start": "parcel build views/index.html --public-url / && node server.js",
+    "dev": "parcel views/index.html"
   },
   "dependencies": {
     "axios": "^0.18.0",
