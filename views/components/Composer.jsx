@@ -26,7 +26,7 @@ class Composer extends React.Component {
 }
 
 Composer.propTypes = {
-  onSubmit: PropTypes.func
+  onCompose: PropTypes.func
 };
 
 export default Composer;

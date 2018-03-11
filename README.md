@@ -57,7 +57,3 @@ In order to return the top rants, I used a SortedArray from the collections.js l
 Under the hook, it uses a binary search tree, thus insertion and deletion only cost
 O(lg n). To retrieve the top rants, we simply have to transverse the BST, which is
 O(k) for getting k top rants.
-
-## Writing test
-Because of my recent tight schedule, I did not manage to complete writing the
-test :sweat_smile:. I would add it in as soon as my schedule is loosen.

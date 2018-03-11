@@ -21,8 +21,8 @@ class Voter extends React.Component {
   render() {
     return (
       <div className="voter">
-        <button onClick={this.onDownvote}>-1</button>
-        <button onClick={this.onUpvote}>+1</button>
+        <button className="downvote-button" onClick={this.onDownvote}>-1</button>
+        <button className="upvote-button" onClick={this.onUpvote}>+1</button>
         <p className="voter-count">{this.props.rant.numVotes} votes</p>
       </div>
     );

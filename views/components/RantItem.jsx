@@ -6,7 +6,7 @@ function RantItem(props) {
   return (
     <div className="rant-item">
       <p className="rant-message">{props.rant.message}</p>
-      <p>posted by {props.rant.user}</p>
+      <p className="rant-user">posted by {props.rant.user}</p>
       <Voter
         rant={props.rant}
         onUpvote={props.onUpvote}
